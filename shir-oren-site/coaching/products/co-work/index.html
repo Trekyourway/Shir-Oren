@@ -1,0 +1,114 @@
+<!--
+  This file contains the full HTML for the "Co‑work" product page. It is
+  mobile‑responsive and ready to deploy under
+  `/coaching/products/cowork/` in the Shir‑Oren repository. The design
+  uses RTL text and includes a viewport meta tag for proper scaling.
+-->
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cowork | Doing the work.</title>
+  <meta name="description" content="Cowork — לא רק לחשוב, לא רק לדבר, לא רק לתכנן. אשכרה — לעשות את העבודה — ביחד." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#0f1014;
+      --bg2:#171922;
+      --bg3:#1d2230;
+      --ink:#f8f6f2;
+      --muted:#cfc8c0;
+      --soft:#ffffff0a;
+    }
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+    }
+    body{
+      background:var(--bg);
+      color:var(--ink);
+      font-family:'Heebo', sans-serif;
+      line-height:1.5;
+    }
+    header{
+      padding:clamp(2rem,6vw,6rem) clamp(1rem,4vw,4rem);
+      text-align:center;
+    }
+    h1{
+      font-size:clamp(2rem,5vw,3.5rem);
+      font-weight:800;
+      margin-bottom:1rem;
+    }
+    h2{
+      font-size:clamp(1.5rem,4vw,2.5rem);
+      font-weight:700;
+      margin-top:2rem;
+      margin-bottom:1rem;
+    }
+    p{
+      font-size:clamp(1rem,2.5vw,1.2rem);
+      max-width:60ch;
+      margin-inline:auto;
+      margin-bottom:1.5rem;
+    }
+    .section{
+      padding:clamp(2rem,5vw,4rem) clamp(1rem,4vw,4rem);
+      border-top:1px solid var(--soft);
+    }
+    .cta{
+      background:var(--bg2);
+      padding:clamp(3rem,6vw,6rem) clamp(1rem,4vw,4rem);
+      text-align:center;
+      border-radius:1rem;
+      margin:clamp(2rem,5vw,4rem) clamp(1rem,4vw,4rem);
+    }
+    .cta p{
+      margin-bottom:2rem;
+    }
+    a.button{
+      display:inline-block;
+      background:var(--ink);
+      color:var(--bg);
+      padding:1rem 2rem;
+      border-radius:2rem;
+      font-weight:700;
+      text-decoration:none;
+    }
+    /* Responsive adjustments */
+    @media (max-width:980px){
+      p{
+        max-width:80ch;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cowork</h1>
+    <p>לא רק לחשוב, לא רק לדבר, לא רק לתכנן.<br> אשכרה — לעשות את העבודה — ביחד.</p>
+  </header>
+  <div class="section">
+    <h2>מה זה Cowork?</h2>
+    <p>כאן מכניסים את ההקדמה על המוצר, היתרונות שלו והערך שהוא מביא. אפשר לפרט על הדרך שבה משתתפים עובדים יחד, לומדים ותומכים זה בזה.</p>
+  </div>
+  <div class="section">
+    <h2>למי זה מתאים?</h2>
+    <p>פרטי כאן את קהל היעד של המוצר, איך הוא מתאים לכל מי שרוצה לעבור ממצב של תכנון לביצוע אמיתי, ומה המשתתפים מקבלים ממנו.</p>
+  </div>
+  <div class="section">
+    <h2>איך מצטרפים?</h2>
+    <p>נשאיר מקום לתיאור השלבים להרשמה, מועדים קרובים או תהליך החיבור. מומלץ להוסיף כאן גם כפתור להרשמה.</p>
+  </div>
+  <div class="cta">
+    <p>מוכנים לעבור לשלב הבא? הצטרפו עכשיו והתחילו לעשות!</p>
+    <a href="#" class="button">להצטרפות</a>
+  </div>
+</body>
+</html>
+</html>
